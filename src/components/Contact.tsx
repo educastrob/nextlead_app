@@ -31,15 +31,15 @@ export function Contact() {
 
     try {
       await emailjs.send(
-        'service_id', // You'll need to replace this with your EmailJS service ID
-        'template_id', // You'll need to replace this with your EmailJS template ID
+        'service_id',
+        'template_id',
         {
           to_email: 'gabriel.castrobrito@gmail.com',
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        'public_key' // You'll need to replace this with your EmailJS public key
+        'public_key'
       );
 
       toast.success('Mensagem enviada com sucesso!');
@@ -132,14 +132,14 @@ export function Contact() {
               <Mail className="h-6 w-6 text-blue-600 mt-1" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                <p className="mt-1 text-gray-500">contato@nextlead.com.br</p>
+                <p className="mt-1 text-gray-500">gabriel.castrobrito@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start">
               <Phone className="h-6 w-6 text-blue-600 mt-1" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Telefone</h3>
-                <p className="mt-1 text-gray-500">(11) 99999-9999</p>
+                <p className="mt-1 text-gray-500">(71) 99701-2733</p>
               </div>
             </div>
             <div className="flex items-start">
@@ -147,8 +147,8 @@ export function Contact() {
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Endereço</h3>
                 <p className="mt-1 text-gray-500">
-                  Av. Paulista, 1000 - Bela Vista<br />
-                  São Paulo - SP, 01310-100
+                  UNIFACS - Campus Tancredo Neves<br />
+                  Salvador - BA
                 </p>
               </div>
             </div>

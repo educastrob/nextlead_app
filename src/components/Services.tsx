@@ -26,13 +26,13 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-extrabold text-brand-blue sm:text-4xl">
             Nossos Serviços
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
+          <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-600">
             Soluções completas para impulsionar seu negócio no ambiente digital
           </p>
         </div>
@@ -41,18 +41,18 @@ export function Services() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="relative group bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow"
+              className="relative group bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100"
             >
               <div>
-                <span className="inline-flex items-center justify-center p-3 bg-blue-600 rounded-md shadow-lg">
-                  <service.icon className="h-6 w-6 text-white" />
+                <span className="inline-flex items-center justify-center p-3 bg-brand-blue rounded-lg shadow-lg group-hover:bg-brand-yellow transition-colors">
+                  <service.icon className="h-6 w-6 text-white group-hover:text-brand-blue" />
                 </span>
               </div>
               <div className="mt-8">
-                <h3 className="text-lg font-medium text-gray-900">
+                <h3 className="text-lg font-bold text-brand-blue">
                   {service.title}
                 </h3>
-                <p className="mt-2 text-base text-gray-500">
+                <p className="mt-2 text-base text-gray-600">
                   {service.description}
                 </p>
               </div>
