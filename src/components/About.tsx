@@ -10,22 +10,21 @@ export function About() {
 					</h2>
 				</div>
 					
-					<div className="space-y-8">
-						<div className="bg-white p-6 rounded-lg shadow-md">
-							<h4 className="text-xl font-bold text-brand-blue mb-3">Missão</h4>
-							<p className="text-gray-600">
-								Criar o melhor ecossistema de comunicação sustentável e inovador 
-								para pessoas e negócios.
-							</p>
-						</div>
-						
-						<div className="bg-white p-6 rounded-lg shadow-md">
-							<h4 className="text-xl font-bold text-brand-blue mb-3">Visão</h4>
-							<p className="text-gray-600">
-								Ser uma referência nacional em negócios e comunicação, conectando 
-								resultado, arte e ciência.
-							</p>
-						</div>
+				<div className="space-y-8">
+					<div className="bg-white p-6 rounded-lg shadow-md">
+						<h4 className="text-xl font-bold text-brand-blue mb-3">Missão</h4>
+						<p className="text-gray-600">
+							Criar o melhor ecossistema de comunicação sustentável e inovador 
+							para pessoas e negócios.
+						</p>
+					</div>
+					
+					<div className="bg-white p-6 rounded-lg shadow-md">
+						<h4 className="text-xl font-bold text-brand-blue mb-3">Visão</h4>
+						<p className="text-gray-600">
+							Ser uma referência nacional em negócios e comunicação, conectando 
+							resultado, arte e ciência.
+						</p>
 					</div>
 				</div>
 			</div>
