@@ -9,18 +9,6 @@ export function About() {
             Sobre Nós
           </h2>
         </div>
-        
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-brand-blue">
-              Transforme sua Presença Digital
-            </h3>
-            <p className="text-lg text-gray-600">
-              Impulsione seu negócio com estratégias digitais personalizadas.
-              Ajudamos a aumentar seu faturamento com um fluxo constante de novas 
-              oportunidades de negócios e soluções completas de comunicação.
-            </p>
-          </div>
           
           <div className="space-y-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
